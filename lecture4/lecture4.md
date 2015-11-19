@@ -71,3 +71,14 @@ plus: (Int, Int) => Int = <function2>
 scala> plus(1, 2)
 res2: Int = 3
 ```
+
+## Exercises
+
+### Basics
+- write recursive function `linearSum(n: Long): Long` that returns `1 + 2 + ... + n` (of course, calculations should be explicit)
+- write recursive function `linearSum(n: Long): Long` using accumulator
+- write integral functional that integrates given function `f` in range `[x0, x1]` over `n` segments
+
+## Collections
+- rewrite the previous function using `Iterator.range`
+- given `xs: Vector[Double]` and `ys: Vector[Double]` write least square fit
