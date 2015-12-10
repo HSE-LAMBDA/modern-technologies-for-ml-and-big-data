@@ -78,4 +78,4 @@ project/plugins/project/
 .worksheet
 .idea
 
-assembly/*
+twitter-streaming/assembly
